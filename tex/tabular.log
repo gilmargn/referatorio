@@ -1,0 +1,187 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  20 MAY 2026 10:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./tabular.tex
+(tabular.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count279
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def
+)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count280
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/inva
+lid\babel-brazil.tex)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4330.
+
+Package babel Info: Importing font and identification data for brazil
+(babel)             from babel-pt-BR.ini. Reported on input line 4330.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\braz
+ilian.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 100.
+Package babel Info: Making " an active character on input line 132.
+))
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen162
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.s
+ty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen163
+\ar@mcellbox=\box53
+\extrarowheight=\dimen164
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
+\rotheadsize=\dimen165
+\c@nlinenum=\count285
+\TeXr@lab=\toks18
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.s
+ty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip53
+\RaggedLeftLeftskip=\skip54
+\RaggedRightLeftskip=\skip55
+\CenteringRightskip=\skip56
+\RaggedLeftRightskip=\skip57
+\RaggedRightRightskip=\skip58
+\CenteringParfillskip=\skip59
+\RaggedLeftParfillskip=\skip60
+\RaggedRightParfillskip=\skip61
+\JustifyingParfillskip=\skip62
+\CenteringParindent=\skip63
+\RaggedLeftParindent=\skip64
+\RaggedRightParindent=\skip65
+\JustifyingParindent=\skip66
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count286
+\g__pdfannot_backend_int=\count287
+\g__pdfannot_backend_link_int=\count288
+) (tabular.aux)
+\openout1 = `tabular.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+
+
+LaTeX Warning: Float too large for page by 145.48195pt on input line 53.
+
+[1] (tabular.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2005 strings out of 402983
+ 35397 string characters out of 5447654
+ 463239 words of memory out of 5000000
+ 30750 multiletter control sequences out of 15000+600000
+ 629568 words of font info for 49 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 42i,17n,51p,318b,359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on tabular.pdf (1 page).

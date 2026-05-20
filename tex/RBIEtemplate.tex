@@ -1,0 +1,483 @@
+%
+% Template for RBIE papers in LaTeX
+%
+
+% The above language combination is for this template document only.
+% You should use one of the following:
+%\documentclass[english, spanish, brazilian]{RBIEarticle} % for papers in portuguese
+%\documentclass[brazilian, spanish, english]{RBIEarticle} % for papers in english
+%\documentclass[brazilian, english, spanish]{RBIEarticle} % for papers in spanish
+
+% Papers in Portuguese or Spanish may require the following lines:
+%
+% Template for RBIE papers in LaTeX
+%
+
+\documentclass[english, spanish, brazilian]{RBIEarticle}
+\title{Repositórios de Código e Padronização Institucional: Um Estudo Automatizado a partir do GitHub}
+\titleinenglish{Code Repositories and Institutional Standardization: An Automated Study Based on GitHub}
+\titleinspanish{Repositorios de Código y Estandarización Institucional: Un Estudio Automatizado a partir de GitHub}
+
+\author{%
+	\parbox{4cm}{%
+		Gilmar G Nascimento\\
+		IFAM\\
+		ORCID: \href{https://orcid.org/0009-0002-1319-9824}{0009-0002-1319-9824}\\
+	%	\href{mailto:gilmar.nascimento@ifam.edu.br}{gilmar.nascimento@ifam.edu.br}
+	}
+	\parbox{4cm}{%
+		Maria Claudia Emer\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-0963-1891}{0000-0002-0963-1891}\\
+	%	\href{mailto:claudiaemer@utfpr.edu.br}{claudiaemer@utfpr.edu.br}
+	}
+	\parbox{4cm}{%
+		Adolfo Gustavo SS Neto\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-0260-5922}{0000-0002-0260-5922}\\
+	%	\href{mailto:adolfogustavo@utfpr.edu.br}{adolfogustavo@utfpr.edu.br}
+	}
+	\parbox{4cm}{%
+		Laudelino C Bastos\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-1585-7168}{0000-0002-1585-7168}\\
+	%	\href{mailto:laudelinobastos@utfpr.edu.br}{laudelinobastos@utfpr.edu.br}
+	}
+}
+
+\heading{Nascimento, G. G., Emer, M. C., Seca Neto, A. G. S., \& Bastos, L. C.}{RBIE v.34 – 2026}
+
+\citeas{Nascimento, G. G., Emer, M. C., Seca Neto, A. G. S., \& Bastos, L. C. (2026). Repositórios de Código e Padronização Institucional: Um Estudo Automatizado a partir do GitHub. Revista Brasileira de Informática na Educação, 34. \url{https://doi.org/10.5753/rbie.2026.xxxx}}
+
+\Submission{20/04/2026}
+\CameraReady{}
+\FirstRoundNotif{}
+\EditionReview{}
+\NewVersion{}
+\AvailableOnline{}
+\SecondRoundNotif{}
+\Published{}\begin{document}
+	
+	\maketitle
+	
+% If the manuscript is written in English, then this element must be removed.
+\begin{otherlanguage}{brazilian}
+\begin{abstract}
+<Aqui vem o resumo do artigo em português. O resumo deve resumir o conteúdo do manuscrito e deve conter no mínimo 150 e no máximo 300~palavras e deve ser escrito em itálico, Times~10, justificado, sem recuo especial e sem espaçamento antes ou depois.>
+\keywords <O resumo deve ser seguido de 3 a 10 palavras-chave. As palavras-chave devem ser justificadas com espaçamento simples, sem recuo especial, sem espaçamento antes e espaçamento exato de 24 pontos depois. O texto deve ser configurado com a fonte Times em tamanho de fonte 10 e em estilo de fonte itálico. Use ponto e vírgula como separador. As palavras-chave devem iniciar com letra maiúsculas.>
+\end{abstract}
+\end{otherlanguage}
+
+\begin{otherlanguage}{english}
+\begin{abstract}
+<Here comes the abstract of the paper in English. The abstract should summarize the contents of the manuscript and should contain at least 150 and at most 300~words long and must be written in italics, Times~10, justified, with no special indentation and no spacing before or after.>
+\keywords <Abstract must be followed by 3 to 10 keywords. The keywords should be justified with a line space single, no special indentation, with no spacing before and spacing of exactly 24-points after. The text should be set in Times 10-point font size and in italic font style. Please use semi-colon as a separator. Keywords must be title cased.>
+\end{abstract}
+\end{otherlanguage}
+
+% If the manuscript is written in English, then this element must be removed.
+\begin{otherlanguage}{spanish}
+\begin{abstract}
+<Aquí viene el resumen del artículo en español. El resumen debe resumir el contenido del manuscrito y debe contener un mínimo de 150 y un máximo de 300~palabras y debe estar escrito en cursiva, Times~10, justificado, sin sangría especial y sin espacio antes o después.>
+\keywords <El resumen debe ir seguido de 3 a 10 palabras clave. Las palabras clave deben estar justificadas con un espacio de línea simple, sin sangría especial, sin espacios antes y con un espacio de exactamente 24 puntos después. El texto debe configurarse fuente Times con tamaño de 10 puntos y en estilo de fuente cursiva. Utilice punto y coma como separador. Las palabras clave deben comenzar con una letra mayúscula.>
+\end{abstract}
+\end{otherlanguage}
+
+\pagebreak
+
+%====================================================================
+
+\section{Introdução}
+É possível escrever códigos utilizando apenas editores de texto simples e ferramentas de linha de comando isoladas. No entanto, essa abordagem demanda tempo excessivo e dispersa funcionalidades que poderiam estar agrupadas. Ambientes Integrados de Desenvolvimento (IDEs) surgiram exatamente para resolver esse problema: integram editor, compilador, depurador e versionamento em uma única interface, aumentando a produtividade e reduzindo a complexidade cognitiva.
+
+Essa mesma lógica de integração — agrupar funcionalidades dispersas para aumentar produtividade e reduzir complexidade — pode ser observada no âmbito institucional. A Rede Federal de Educação Profissional, Científica e Tecnológica (Rede Federal de EPCT) não é uma coleção solta de escolas técnicas. Há mais de um século, ela integra institutos, campi, cursos e níveis de ensino em uma estrutura nacional coordenada \cite{lei11922_2008}, potencializando o desenvolvimento tecnológico do país \cite{pacheco2011}.
+
+Se a integração é reconhecida como benéfica tanto para ferramentas de codificação quanto para a organização da educação profissional, por que os códigos produzidos nesse ambiente integrado não seguem a mesma lógica — especialmente quando a própria legislação educacional exige integração documental por meio de Projetos Pedagógicos Institucionais (PPIs) e Projetos Pedagógicos de Curso (PPCs)?
+
+Instituições de ensino superior no Brasil são obrigadas a seguir rigorosos padrões documentais. O PPI define a missão, as diretrizes teóricas e metodológicas de toda a instituição, enquanto os PPCs detalham competências, ementas e perfis de egresso para cada formação. Ambos são exigidos pelo Ministério da Educação (MEC) e fundamentam as atividades de ensino, pesquisa e extensão no âmbito do Sinaes.
+
+O desenvolvimento de software é um processo complexo e necessita de profissionais bem preparados. Como argumenta Humphrey \cite{barr2018}, a sociedade contemporânea depende demasiadamente dos produtos de software para que possamos continuar com práticas artesanais em sua produção. A qualidade do software produzido está diretamente relacionada à formação recebida e às práticas adotadas durante o aprendizado \cite{sommerville2011}. A formação de profissionais da área — sejam engenheiros, tecnólogos ou técnicos — deve incluir disciplinas eficazes de engenharia de software, aprendidas e praticadas durante a educação formal. Nesse sentido, o domínio de ferramentas de versionamento e colaboração, como repositórios Git, torna-se competência fundamental para estudantes de cursos de computação.
+
+O termo "repositório de software" abrange todos os artefatos produzidos durante o desenvolvimento de um sistema, desde arquivos com código-fonte armazenados em sistemas de controle de versão até mensagens trocadas entre desenvolvedores \cite{sokol2013}. Sobre o ensino e desenvolvimento de códigos na academia, Weinberg \cite{barr2018} observa que projetos de códigos feitos nas universidades geralmente não possuem manutenção, não são utilizados ou testados por outras pessoas. Parte significativa dos códigos derivados de práticas de ensino são "engavetados", sem possibilidade de aproveitamento de boas iniciativas.
+
+Diferentemente do que ocorre com PPI e PPCs — cuja ausência inviabiliza o reconhecimento institucional perante o MEC — não há qualquer exigência normativa relacionada a repositórios de código. Um curso pode ser legalmente reconhecido sem que a instituição mantenha qualquer política de versionamento ou colaboração por meio de plataformas como GitHub.
+
+No entanto, a ausência de obrigação legal não equivale à ausência de relevância pedagógica. A Engenharia de Software, como disciplina, estabelece que o desenvolvimento sistemático de software envolve não apenas a codificação, mas um conjunto de atividades interrelacionadas — especificação, projeto, implementação, testes, documentação, configuração e manutenção — que devem ser registradas e gerenciadas ao longo de todo o ciclo de vida \cite{sommerville2011,pressman2016}. Práticas como controle de versão, revisão de código por pares, rastreabilidade de requisitos, documentação arquitetural e automação de testes são componentes centrais de uma formação sólida na área \cite{pressman2016, fowler2018}.
+
+Assim como é prática recomendada — ainda que nem sempre seguida — que um docente respeite a ementa de sua disciplina, a institucionalização de repositórios de código deveria ser uma prática esperada em cursos de computação. Não se trata apenas de armazenar código, mas de \textbf{documentar o processo de construção e evolução} de artefatos de software, alinhando a formação às práticas consolidadas da indústria e da pesquisa \cite{sommerville2011}.
+
+Entre as plataformas que hospedam código aberto, destaca-se o GitHub. Segundo Borges \cite{borges2016}, seus repositórios concentram-se majoritariamente em bibliotecas e arcabouços para desenvolvimento web, ferramentas de código e componentes não web.\footnote{Embora o GitHub seja a plataforma mais utilizada e tenha sido o foco deste estudo por oferecer API pública para coleta automatizada de dados, existem alternativas como GitLab (auto-hospedado) e Codeberg (sem fins lucrativos). A análise comparativa dessas plataformas no contexto dos IFs, incluindo conformidade com a LGPD, é sugerida como trabalho futuro.} O potencial educacional dessas plataformas, no entanto, depende de uma condição fundamental: a adoção institucional.
+
+Como será demonstrado adiante, dos oito Institutos Federais da Amazônia Legal analisados, seis não possuem organização oficial no GitHub, e um sequer está registrado na plataforma — o que sugere não uma violação legal, mas uma \textbf{lacuna de institucionalização de práticas sistemáticas de engenharia de software} no ambiente educacional da região.
+
+O simples acesso a plataformas como GitHub, contudo, não é suficiente para garantir seu aproveitamento pedagógico. É necessário um agrupamento intencional de informações, documentações e códigos que oriente educadores e estudantes na navegação por esse ecossistema. É nesse ponto que o conceito de referatório — discutido a seguir — oferece uma contribuição arquitetural relevante.
+
+Esta pesquisa parte do seguinte problema: quais as aplicações de plataformas de códigos associadas ao ensino de diferentes conteúdos do currículo de cursos oferecidos por IFs da Amazônia Legal? Os objetivos são: (i) identificar as plataformas atualmente utilizadas e seus usos; (ii) identificar e analisar quais conteúdos são privilegiados e quais fatores favorecem ou restringem o uso; (iii) com base nos dados levantados, desenvolver recomendações aplicáveis à realidade da região amazônica.
+
+\section{Referencial teórico}
+
+\subsection{Engenharia de Software e Ensino de Programação}
+
+A engenharia de software desempenha diversos papéis na construção de projetos que envolvem códigos. Conforme Pressman \cite{pressman2016}, a engenharia de software é uma disciplina relacionada com todos os aspectos da produção de software, desde os estágios iniciais de especificação até sua manutenção. Além dos processos técnicos, relaciona-se também com gerenciamento de projeto e desenvolvimento de ferramentas e métodos. Para o ensino de computação, isso implica que não basta ensinar sintaxe de linguagens; é necessário também ensinar práticas de organização, documentação e versionamento \cite{sommerville2011}.
+
+Há, no entanto, uma diferença entre o ambiente de desenvolvimento de habilidades relacionadas à engenharia de software no espaço acadêmico e no empresarial. Conforme Barr \cite{barr2018}, quem escreve bastante código na faculdade não necessariamente fará ``bons"~ códigos nas empresas. Essa lacuna entre a formação acadêmica e as práticas profissionais tem sido objeto de estudo em diversas pesquisas na área de educação em computação \cite{qian2017}. Uma das hipóteses para essa lacuna é a ausência, nos currículos, de disciplinas que integrem teoria e prática por meio de ferramentas reais de desenvolvimento colaborativo \cite{arcuri2020}.
+
+Um exemplo particularmente relevante dessa lacuna é o Software de Pesquisa — definido como o software desenvolvido durante o processo de pesquisa, incluindo código-fonte, algoritmos, scripts, fluxos de trabalho computacionais e executáveis \cite{vonflach2023}. O software de pesquisa é parte integrante do ecossistema de pesquisa moderno, sendo amplamente utilizado nas Ciências e Engenharias para gerar resultados que servem como evidência em publicações científicas. Devido à complexidade em desenvolver software e ao conhecimento de domínio especializado necessário, os próprios pesquisadores desenvolvem o software de pesquisa ou estão intimamente envolvidos com o seu desenvolvimento \cite{carver2007}.
+
+No entanto, pesquisadores não estão familiarizados com boas práticas de desenvolvimento de software sustentável \cite{vonflach2023}. Na Engenharia de Software, duas linhas de pesquisa voltadas para Sustentabilidade se destacam: (i) Sustentabilidade de Software, cuja preocupação central é a capacidade do software de perdurar ao longo do tempo; e (ii) Engenharia de Software para Sustentabilidade (SE4S) \cite{venters2021}. Para o ensino de programação, isso implica que avaliar a qualidade de algoritmos exige ir além da verificação funcional — é necessário também considerar práticas de versionamento, documentação e organização que garantam a longevidade e a reprodutibilidade do código produzido.
+
+Nesse contexto, estudantes de cursos técnicos e tecnológicos da Rede Federal de EPCT frequentemente enfrentam dificuldades em disciplinas como Estrutura de Dados, Algoritmos e Programação Orientada a Objetos \cite{qian2017}. Essas dificuldades podem levar à desistência do curso. O problema emocional envolvido é significativo: estudantes sentem-se incapazes de aprender as disciplinas e, consequentemente, acreditam que não conseguem aprender nada na área de informática.
+
+Uma das estratégias para mitigar essas dificuldades é a adoção de ferramentas de versionamento e colaboração, como os repositórios Git, desde as fases iniciais do curso \cite{vanGeest2024}. O uso dessas ferramentas permite que os estudantes visualizem a evolução de seus projetos, recebam feedback de colegas e professores, e desenvolvam habilidades de trabalho em equipe — competências essenciais tanto para a engenharia de software quanto para o mercado de trabalho \cite{borges2016}.
+
+Além disso, a prática de versionamento está diretamente alinhada aos princípios da Ciência Aberta, pois torna o processo de desenvolvimento transparente e rastreável. Estudos recentes mostram que a introdução precoce de Git no currículo melhora não apenas a qualidade técnica dos códigos produzidos, mas também a percepção de autoeficácia dos estudantes \cite{momcheva2025}.
+
+\subsection{Versionamento e Rastros de Aprendizagem}
+
+Além de servirem como repositórios de código, plataformas como GitHub registram automaticamente o histórico de desenvolvimento por meio de commits, mensagens de log e evolução temporal dos arquivos. Esses rastros digitais constituem uma fonte valiosa de dados para a análise do processo de aprendizagem em programação.
+
+Estudos recentes têm explorado o uso de logs de programação para compreender dificuldades de aprendizado e fornecer feedback automatizado aos estudantes \cite{qian2017, nascimento2026logs}. Especificamente, o uso de logs capturados durante a codificação permite identificar padrões de erro, estratégias de correção e evolução conceitual ao longo do tempo \cite{nascimento2026logs}.
+
+Nesta pesquisa, embora o foco principal seja a análise da adoção institucional de repositórios, reconhece-se o potencial dos logs de versionamento como ferramenta complementar para investigações futuras sobre a eficácia do uso do GitHub no ensino de programação, conforme apontado em trabalhos anteriores \cite{nascimento2026logs}. Além disso, os logs são salvos em repositórios, o que proporciona não apenas a continuidade de pesquisas futuras, mas também o alinhamento com os princípios da Ciência Aberta: dados de aprendizado tornam-se rastreáveis, compartilháveis e passíveis de reuso por outros pesquisadores, desde que respeitadas as questões éticas e de privacidade.
+
+\subsection{Ciência Aberta e Repositórios de Código}
+
+A Ciência Aberta tem ganhado destaque como um movimento que busca tornar a pesquisa mais transparente, reprodutível e acessível. No contexto do ensino de computação, plataformas como GitHub e GitLab são reconhecidas como infraestrutura essencial para a Ciência Aberta \cite{momcheva2025}. Os princípios FAIR (Findable, Accessible, Interoperable, Reusable) devem ser aplicados não apenas a dados, mas também a códigos produzidos no âmbito acadêmico.
+
+Pesquisas recentes mostram que o uso de repositórios Git no ensino promove:
+\begin{itemize}
+\item Participação e colaboração em projetos de código aberto; (quando o software/projeto é de terceiros(mesmo sendo código aberto))
+\item Versionamento e rastreabilidade de contribuições;
+\item Integração com serviços como Zenodo para geração de DOIs;
+\item Baixa barreira de entrada, dada a familiaridade crescente com Git \cite{vanGeest2024}.
+\end{itemize}
+
+\subsection*{Plataformas, Soberania de Dados e Implicações Legais}
+
+No entanto, a adoção de plataformas de repositórios por instituições públicas brasileiras não é isenta de controvérsias. O GitHub, embora dominante, é uma plataforma proprietária adquirida pela Microsoft em 2018. Seus termos de serviço permitem, em determinadas circunstâncias, a utilização de dados públicos para treinamento de modelos de inteligência artificial e outras finalidades comerciais. Para uma instituição pública que produz conhecimento financiado com recursos da sociedade, essa dependência levanta questões sobre soberania de dados, propriedade intelectual e conformidade com a Lei Geral de Proteção de Dados (LGPD) \cite{lgpd2018}.
+
+Alternativas como GitLab e Codeberg oferecem modelos diferentes, ambas com suporte a auto-hospedagem. O GitLab é mantido por uma empresa com modelo comercial (open core), enquanto o Codeberg é uma plataforma sem fins lucrativos, sediada na Alemanha, que opera com software livre (Forgejo) e governança comunitária, sem vínculo com grandes corporações..
+
+A escolha da plataforma, portanto, não é meramente técnica. Envolve decisões estratégicas sobre onde a instituição deposita seus ativos digitais — e sob quais condições legais e comerciais. Uma política institucional de repositórios não pode ignorar essas dimensões, sob pena de, ao buscar abertura, comprometer a soberania e a segurança jurídica da instituição.
+
+Nesta pesquisa, optou-se por analisar o GitHub por dois motivos: (i) sua dominância no cenário educacional e (ii) a disponibilidade de API pública para coleta automatizada de dados. A discussão sobre alternativas auto-hospedadas ou sem fins lucrativos, embora relevante, foge ao escopo deste estudo empírico, sendo sugerida como trabalho futuro.
+
+\subsection{Ambientes Virtuais de Aprendizagem e Repositórios}
+
+A prática comum em instituições de ensino, incluindo os IFs, é a utilização de Ambientes Virtuais de Aprendizagem (AVAs) como Moodle e Google Classroom para recebimento e avaliação de códigos. O procedimento típico envolve o estudante desenvolvendo código localmente, compactando em arquivo .zip e enviando ao professor, que avalia manualmente.
+
+Essa dinâmica apresenta riscos adicionais: arquivos .zip podem conter código malicioso, executáveis não verificados ou conteúdos não relacionados à atividade, além de dificultar a verificação de autoria e integridade.
+
+Esse modo de operação, embora funcional, apresenta limitações:
+\begin{itemize}
+\item Não estimula boas práticas de versionamento (Git);
+\item Não promove reuso de código entre turmas e períodos;
+\item Não gera visibilidade para o trabalho do estudante;
+\item Não se alinha aos princípios de Ciência Aberta e reprodutibilidade.
+\end{itemize}
+
+Pesquisas indicam que existem ferramentas de integração entre AVAs e GitHub/GitLab. O Moodle, por exemplo, conta com plugins como VPL (Virtual Programming Lab) e CodeGrade que permitem submissão via \texttt{git push} e avaliação automática \cite{moodle2024}. O Google Classroom também oferece APIs e add-ons que possibilitam integração com GitHub \cite{google2024}.
+
+
+\section{Metodologia}
+
+Esta pesquisa adota uma abordagem mista, combinando (i) uma análise quantitativa baseada em mineração de dados públicos da plataforma GitHub e (ii) uma revisão estruturada da literatura.
+
+\subsection{Mineração de Dados no GitHub}
+
+Embora existam serviços alternativos de hospedagem de repositórios, como GitLab (que permite instalação auto-hospedada) e Codeberg (sem fins lucrativos), este estudo concentra-se no GitHub. A escolha justifica-se por dois motivos: (i) o GitHub é a plataforma de repositórios mais utilizada globalmente e no contexto educacional brasileiro; (ii) como será demonstrado, mesmo nesse serviço dominante, a presença institucional dos IFs da Amazônia Legal é praticamente nula.
+
+A coleta de dados foi realizada utilizando a API REST do GitHub, com token de autenticação pessoal (5.000 requisições/hora). Foram extraídas métricas como número de repositórios públicos, linguagens, data do último commit, estrelas e forks.
+
+O recorte geográfico é a Amazônia Legal, que compreende os estados do Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima e Tocantins. Foram analisadas as organizações oficiais dos Institutos Federais (IFs) da região.
+
+\subsection{Indicadores de Análise}
+
+Para avaliar a adoção institucional do GitHub, foram definidos os seguintes indicadores:
+\begin{itemize}
+	\item \textbf{Existência de organização oficial}: presença ou ausência de uma organização no GitHub correspondente à sigla do IF;
+	\item \textbf{Volume de repositórios públicos}: número total de repositórios associados à organização;
+%	\item \textbf{Atividade recente}: data do último commit;
+%	\item \textbf{Linguagens predominantes}: distribuição das linguagens utilizadas;
+	\item \textbf{Presença individual}: número de usuários que mencionam a sigla do IF em seus perfis (busca textual).
+\end{itemize}
+
+Os dados foram organizados em DataFrame com a biblioteca Pandas do Python. Para os usuários individuais, foi realizada uma análise por amostragem dos primeiros 100 resultados da busca pela sigla ``ifam", classificando-os por vínculo institucional na biografia.
+
+\subsection{Revisão Bibliográfica}
+
+A revisão foi conduzida de forma estruturada, seguindo três eixos temáticos. Para cada eixo, foram analisados títulos e resumos dos artigos retornados pela busca na SBC SOL, com foco na identificação de trabalhos que relacionassem repositórios de código, Ambientes Virtuais de Aprendizagem e políticas institucionais em IFs.
+
+\section{Resultados}
+
+\subsection{Organizações Oficiais}
+
+Os resultados da coleta revelam uma baixíssima adoção institucional do GitHub. A Tabela~\ref{tab:resultados} apresenta o panorama dos IFs da Amazônia Legal.
+
+\begin{table}[!htb]
+	\centering
+	\caption{Institutos Federais da Amazônia Legal e adoção do GitHub}
+	\label{tab:resultados}
+	\begin{tabular}{|l|l|c|c|}
+		\hline
+		\textbf{IF} & \textbf{Estado} & \textbf{Status} & \textbf{Repositórios} \\
+		\hline
+		IFAC & AC & Com repositórios & 1 \\
+		IFAM & AM & Sem repositórios & 0 \\
+		IFAP & AP & Sem repositórios & 0 \\
+		IFMA & MA\footnote{O Maranhão integra a Amazônia Legal em sua porção oeste.} & Não encontrado (404) & — \\
+		IFMT & MT\footnote{O Mato Grosso integra a Amazônia Legal.} & Sem repositórios & 0 \\
+		IFPA & PA & Não encontrado (404) & — \\
+		IFRO & RO & Com repositórios & 4 \\
+		IFRR & RR & Sem repositórios & 0 \\
+		IFTO & TO & Sem repositórios & 0 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Apenas 2 dos 9 IFs analisados (22\%) possuem organização oficial com repositórios públicos. O IFRO concentra 80\% dos repositórios encontrados (4 de 5).
+
+%\subsection{Linguagens de Programação}
+%
+%Os repositórios encontrados utilizam linguagens diversas, sem padrão definido: PHP, Python e Kotlin, cada uma com um único repositório. Essa dispersão sugere ausência de diretrizes institucionais sobre linguagens preferenciais.
+%
+%\subsection{Usuários Individuais}
+
+%A busca por usuários que mencionam a sigla "ifam" retornou 349 perfis. Uma análise amostral dos primeiros 100 perfis revelou a seguinte distribuição aproximada:
+%
+%\begin{table}[!htb]
+%\centering
+%\caption{Classificação de usuários por vínculo aparente (amostra IFAM)}
+%\label{tab:usuarios}
+%\begin{tabular}{|l|c|}
+%\hline
+%\textbf{Categoria} & \textbf{Percentual na amostra} \\
+%\hline
+%Estudantes & 65\% \\
+%Professores/Pesquisadores & 15\% \\
+%Servidores técnicos & 5\% \\
+%Projetos institucionais & 3\% \\
+%Não classificados & 12\% \\
+%\hline
+%\end{tabular}
+%\end{table}
+%
+%A predominância de estudantes (65\%) sugere que o GitHub é utilizado majoritariamente como ferramenta de aprendizado e portfólio pessoal, e não como estratégia institucional de compartilhamento de código.
+
+
+\section{Discussão}
+
+\subsection{A Desconexão entre Prática Institucional e Individual}
+
+Os resultados evidenciam uma desconexão significativa entre a prática institucional e a prática individual no uso de repositórios de código. Enquanto as organizações oficiais dos IFs apresentam baixíssima adoção (apenas 2 de 8 com repositórios), a busca por usuários individuais revela uma comunidade ativa (349 usuários mencionando "ifam").
+
+Esta desconexão pode ser interpretada como um diagnóstico institucional: há uso da plataforma, mas não há governança; há prática, mas não há política; há código sendo produzido, mas ele se perde em contas pessoais, sem garantias de preservação ou reuso. Este cenário contradiz princípios fundamentais da Ciência Aberta, em especial a reprodutibilidade e a reusabilidade, que exigem que códigos produzidos no âmbito acadêmico estejam disponíveis em canais institucionais e devidamente identificados.
+
+\subsection{A Invisibilidade Docente}
+
+A busca nacional pelo termo ``professor ebtt"~ retornou apenas 28 usuários em todo o Brasil, número muito abaixo da quantidade real de docentes da Rede Federal. Este achado sugere que os professores, quando presentes na plataforma, raramente explicitam seu vínculo institucional no perfil do GitHub. A baixa representação docente (apenas 15\% da amostra do IFAM) reforça a tese de que a adoção do GitHub ocorre de maneira descentralizada e sem coordenação pedagógica.
+
+\subsection{Integração com Ambientes Virtuais de Aprendizagem}
+
+A literatura indica que existem ferramentas maduras para integração entre AVAs (Moodle, Google Classroom) e plataformas de repositórios Git \cite{moodle2024, google2024}. A ausência dessa integração nos IFs da Amazônia Legal representa uma oportunidade perdida de alinhar práticas pedagógicas aos princípios da Ciência Aberta.
+
+A hipótese levantada é que a principal plataforma utilizada para recebimento e avaliação de códigos nas disciplinas de programação dos IFs é o Moodle ou Google Classroom, por meio de submissão manual de arquivos compactados (.zip). Este fluxo tradicional, embora funcional, é profundamente limitado para o ensino de programação por três razões.
+
+Primeiro, porque não registra o processo de desenvolvimento: o professor vê apenas o produto final (um arquivo .zip), não os erros, as tentativas, as correções ou a evolução conceitual do estudante ao longo do tempo. Segundo, porque não estimula boas práticas de engenharia de software, como versionamento, documentação, colaboração e reuso. Terceiro, porque não gera rastros de aprendizado que possam ser analisados posteriormente para fins de pesquisa ou melhoria pedagógica \cite{nascimento2026logs}.
+
+A integração entre AVAs e repositórios Git — por meio de plugins como VPL para Moodle \cite{moodle2024} ou automações com Google Classroom \cite{google2024} — resolveria essas três limitações. Os estudantes submeteriam atividades via \texttt{git push}, mantendo o histórico completo de seus commits. Os professores teriam acesso não apenas ao código final, mas à trajetória de desenvolvimento. E os pesquisadores poderiam analisar padrões de erro, estratégias de correção e evolução conceitual a partir dos logs de versionamento.
+
+No entanto, como demonstrado na seção de Resultados, nenhum dos IFs da Amazônia Legal adota essa integração. A ausência de políticas institucionais de repositórios — somada à falta de capacitação docente — perpetua um fluxo pedagógico que ignora décadas de avanço da engenharia de software e da ciência aberta.
+\section{Conclusão}
+
+Este artigo investigou a adoção do GitHub como plataforma de repositórios de código nos Institutos Federais da Amazônia Legal. Os resultados revelam um cenário de baixíssima adoção institucional: apenas 2 dos 8 IFs analisados possuem organização oficial com repositórios públicos, totalizando 5 repositórios. Esse dado contrasta com a presença ativa de usuários individuais (349 menções à sigla "ifam"), majoritariamente estudantes (65\% da amostra). A invisibilidade docente na plataforma e a desconexão entre práticas individuais e institucionais indicam oportunidades significativas de intervenção.
+
+Como recomendações práticas, sugere-se:
+
+\begin{enumerate}
+    \item Criar organizações oficiais no GitHub para cada IF da região, ou avaliar alternativas auto-hospedadas como GitLab Community Edition, que garantem soberania institucional;
+    \item Adotar plugins de integração (VPL, CodeGrade) nos Moodles institucionais, permitindo submissão via \texttt{git push} em vez de arquivos compactados;
+    \item Estabelecer política institucional de depósito de códigos produzidos em disciplinas de programação, alinhada aos princípios da Ciência Aberta e à LGPD;
+    \item Capacitar docentes no uso de Git/GitHub e na integração com Ambientes Virtuais de Aprendizagem;
+    \item Incentivar docentes e discentes a associarem seus perfis pessoais às organizações oficiais, aumentando a visibilidade e a rastreabilidade da produção acadêmica;
+    \item Desenvolver uma interface gráfica institucional para gerenciamento de repositórios, nos moldes do GitHub Desktop, concebida e mantida por IFs ou pela própria Rede Federal. Tal ferramenta poderia integrar-se a repositórios auto-hospedados (GitLab CE, Gitea) e oferecer funcionalidades para o contexto educacional: submissão integrada a AVAs, templates institucionais e painéis de visibilidade para projetos de pesquisa e extensão.
+\item Realizar uma análise bibliométrica e de redes sociais (VOSviewer) com os dados completos de usuários do GitHub vinculados aos IFs, incluindo coocorrência de termos nas biografias, padrões de colaboração e evolução temporal do uso da plataforma.
+\end{enumerate}
+
+
+Como limitações, o estudo restringiu-se à plataforma GitHub, não contemplando alternativas como GitLab auto-hospedado ou Codeberg, nem analisando aspectos de conformidade legal e propriedade intelectual. Além disso, a classificação de usuários por biografia pode subestimar o vínculo institucional real, uma vez que nem todos os membros da comunidade acadêmica explicitam sua afiliação no perfil.
+
+Trabalhos futuros podem: (i) expandir a análise para toda a Rede Federal de EPCT; (ii) investigar qualitativamente os fatores que levaram ao caso atípico do IFRO; (iii) realizar estudo comparativo entre GitHub, GitLab auto-hospedado e Codeberg, considerando critérios de soberania de dados, LGPD e propriedade intelectual; (iv) desenvolver e avaliar uma política institucional piloto de repositórios em um ou mais IFs da região.
+
+%\bibliography{references}
+%\subsection{Page Setup}
+%The paper size must be set to A4 (210x297 mm). The document margins must be 2.3 cm in all sides (Top: 2.3 cm; Bottom: 2.3 cm; Left: 2.3 cm; Right: 2.3 cm).
+%
+%Regarding the page layout, authors should set the vertical alignment to the top, and the header and the footer: 1.25 cm.
+%
+%Any text or material outside the margins might have problems with overlay information.
+%
+%
+%\subsection{Title}
+%Use 17-point Times New Roman for the title in the original language, center aligned, line space multiple 1,15 with a bold font style, with an additional spacing of 10-point after, and initial letters capitalized. Articles and words like ``is'', ``or'', ``then'', etc. should not be capitalized unless they are the first word of the title.
+%
+%If the original language of the manuscript is Portuguese or English, then it is necessary to add the title in English. After the title in the original language, add in the next paragraph a “Title:” heading and the corresponding title in English just in the sequence. Use 12-point Times New Roman type, center aligned, line space multiple 1,15 with an italic font style, with an additional spacing of 24-point after, and initial letters capitalized. As in the title in the original language, articles and words like ``is'', ``or'', ``then'', etc. should not be capitalized unless they are the first word of the title.
+%
+%
+%\subsection{Authors’ Information}
+%Use 10-point Times New Roman type for the authors’ information, aligned left, line space single with an italic font style, with no additional spacing. In the first line of authors’ information provide the full name of the authors, in the second line his affiliation and in the last line his email address. If there is only one author, this information must be in the center. If there are two or three authors, then organize the information respectively in two or three columns. For more authors, consider organizing the information in two or three columns and as many lines as necessary.
+%
+%Notice that all information that may identify the authors must be suppressed of the manuscript at the submission phase. However, this information must be filled in the metadata of the submission form as well as in the final version of the manuscript in case of acceptance.
+%
+%
+%\subsection{Abstract and Keywords}
+%Each paper must have an abstract. The abstract should appear justified, with a line space single, no spacing before and after, and font size of 10-point Times in italic. The abstract should summarize the contents of the manuscript and should contain at least 150 and at most 300 words long. The sentence must end with a period. Before the abstract text there is one line with the ``Abstract'' heading in font size of 12-point Times in bold.
+%
+%In the next line after the abstract, comes the keywords, with the heading ``Keywords:'' in font size of 10-point Times in bold, followed by 3 to 10 keywords aligned left, with a line space single, no special indentation, with no spacing before and 24-points spacing after. The keywords should be set in Times 10-point font size and in italic font style, with 24-point spacing after. To separate the keywords, use the semi-colon. Keywords must be title cased.
+%
+%If the manuscript is written in Portuguese or Spanish, the authors must provide the abstract and keywords in this language before providing the one in English.
+%
+%
+%\subsection{The Sections}
+%The document is organized in only one column. The section text must be set to 12-point Times, justified, line space single and 6-point spacing after.
+%
+%Section, subsection and sub subsection first paragraph should not have the first line indent, other paragraphs should have a first line indent of 0.75 centimeter.
+%
+%
+%\subsubsection{Section Titles}
+%The heading of a section title must be 14-point bold with initial letters capitalized, aligned to the left with a line space sing, with an additional spacing of 24-point before and 12-point after. After the title number, there should be no dot.
+%
+%
+%\subsubsection{Subsection Titles}
+%The heading of a subsection title must be 12-point bold with initial letters capitalized, aligned to the left with a line space single, with an additional spacing of 12-point before and 6-point after. After the title number, there should be no dot.
+%
+%
+%\subsubsection{Sub Subsection Titles}
+%The heading of a sub subsection title should be in 12-point italic with initial letters capitalized, aligned to the left with a line space single, with an additional spacing of 12-point before and 6-point after. After the title number, there should be no dot.
+%
+%
+%\subsection{Tables}
+%Tables (e.g., \autoref{tab:one}) must be positioned preferably at the top or bottom of the page within the given margins. Avoid breaking tables on different pages, unless it does not fit one page only. Tables should be properly numbered, centered and should always have a caption positioned above it. Captions should be centered with 9-point Times, with 12-point spacing before and 6-point after. The final sentence of a caption must end with a period.
+%
+%Table text should be 10-point Times, with no spacing before or after.
+%
+%\begin{table}[h]
+%	\caption{Caption table 1}
+%	\label{tab:one}
+%	\centering\footnotesize%
+%	\begin{tabular}{|c|c|}
+%		\hline
+%		\rowcolor{gray} \textbf{Example column 1} & \textbf{Example column 2}\\
+%		\hline
+%		Example text 1 & Example text 2\\
+%		\hline
+%	\end{tabular}
+%\end{table}
+%
+%
+%\subsection{Figures}
+%Figures should be produced electronically and integrated into the document. As they may lose quality when integrated into the document, it is important to check if it is with a good resolution (at least 300 dpi is recommended). Check line drawings, grids, and details within the figures that must be clearly readable and may not be written one on top of the other, considering 100\% view and print version.
+%
+%Figures (e.g., \autoref{fig:one}) must appear inside the designated margins. They should be properly numbered, centered and should always have a caption positioned under it. Captions should be centered, with 9-point font size. Spacing before and after should be of 6-point and 12-point, respectively.
+%
+%The final sentence of a caption must end with a period. 
+%
+%\begin{figure}[h]
+%	\centerline{\includegraphics[scale=0.25]{newlogo.png}}
+%	\caption{Caption figure 1}
+%	\label{fig:one}
+%\end{figure}
+%
+%
+%\subsection{Equations}
+%Special attention with equations as some characters may be lost as well as formatting. Equations (e.g., \autoref{eq:one}) should be placed on a separate line, numbered and centered. An extra line space should be added below the equation. The numbers accorded to equations must appear enclosed in brackets and positioned right side (with some space after the equation).
+%The use of a table with two columns is advisable.
+%
+%\begin{equation}
+%	a = b + c
+%	\label{eq:one}
+%\end{equation}
+
+
+%\subsection{Program Code}
+%Program listing commands in text (e.g., \autoref{code:one}) should be set in 9-point Courier New, with no spacing before or after, and no first line indent. Codes must appear inside the designated margins, with external borders and they should be properly numbered. Captions should be centered, with 9-point font size. Spacing before and after should be of 6-point and 12-point, respectively.
+%
+%\begin{code}[h]
+%	\begin{lstlisting}
+%begin
+%    Writeln('Hello World!!');
+%end.
+%	\end{lstlisting}
+%	\caption{Example of code}
+%	\label{code:one}
+%\end{code}
+%
+%
+%\subsection{In-Text Citations and Reference List}
+%
+%When you use others' ideas in your paper, you should credit them with an in-text citation. In-text citations must follow APA 7 Style, which consist of the surname of the authors and the year of publication. More on \href{https://apastyle.apa.org/}{Writing In-Text Citations in APA Style}, please refer to \href{https://libguides.brenau.edu/APA7}{APA Citation Guide (7th edition)}.
+%
+%The  \href{https://libguides.brenau.edu/APA7}{APA Citation Guide (7th edition)} explains why and what to cite, citing references in text, the purpose of the reference list and how to build the reference list. It is possible to find more information on  \href{https://libguides.brenau.edu/APA7}{APA Citation Guide (7th edition)} and on how to deal with missing information as well as class notes, class lectures, presentations, social media, among other sources. Some sample references are provided by the  \href{https://libguides.brenau.edu/APA7}{APA Citation Guide (7th edition)}.
+%
+%The reference list must be ordered alphabetically. References should be set to 12-point, justified, with a single line space, 6-point additional spacing after and hanging indent of 0.75 centimeter.
+%
+%Citation 1 \parencite{Baker2011}
+%
+%Citation 2 \parencite{Seffrin2013}
+%
+%Citation 3 \parencite{Brasil2008}
+%
+%Citation 4 \parencite{Kautzman2015}
+%
+%Citation 5 \parencite{Sweller1991}
+%
+%Citation 6 \parencite{Clark2006}
+%
+%Citation 7 \parencite{Mason2012}
+%
+%
+%\section{Conclusions}
+%We hope you find the information in this template useful, and it helps you in the preparation of your manuscript.
+%
+%If you find inconsistencies or need additional information, please contact the editors.
+%
+%
+%\section*{Acknowledgements}
+%%Place the acknowledgements only in the final version of the manuscript, after acceptance. They should be placed before the references section without numbering.
+%Our special thanks to Rafael Bohrer Ávila, Matheus Segalotto and Bruno Fagundes da Silva for their help with this latex template. 
+%
+%
+%%====================================================================
+%
+%%See the guidelines for metadata and references:
+%%https://sol.sbc.org.br/journals/index.php/rbie/libraryFiles/downloadPublic/71
+%%====================================================================
+%
+%
+% \section*{Appendix 1}
+%\label{apendice1}
+%
+%If any, the appendix should appear directly after the references without numbering, and not on a new page.
+%
+%\begin{enumerate}
+%    \item[A] When the reference has a Link
+%    \begin{itemize}
+%        \item Make a clickable link on the respective URL (if you are using MS-Word, use the tool Insert Hyperlink, informing the URL).
+%    \end{itemize}
+%    \item[B] Allow readers to search for the reference on Google Scholar
+%    \begin{itemize}
+%        \item Copy the title of the reference and put in between ``\%22'', including the ``+'' character between each word: http://scholar.google.com/scholar?q=\%22PASTE+TITLE+\\HERE\%22\&hl=en\&lr=\&btnG=Search
+%        \item If it is a common title, you may add the author, such as in: \\http://scholar.google.com/ scholar?q=PASTE+AUTHOR+HERE+\%22PASTE+TITLE\\+HERE\%22\&hl=en\&lr=\&btnG=Search
+%        \item Or you may use the publication year (YEAR) to restrict the results, such as in:\\ http://scholar.google.com/scholar?
+%        q=PASTE+AUTHOR+HERE+\%22PASTE+TITLE\\+HERE\%22\&hl=en\&lr=\&btnG=Search \&as\_ylo=YEAR\&as\_yhi=YEAR
+%        \item It is highly advisable to confirm if the link is correct (and if Google Scholar presents a correct result).
+%        \item Include the term ``[GS SEARCH]'' at the end of each reference and make “GS SEARCH” a hyperlink with the URL just created.
+%    \end{itemize}
+%    \item[C] Allow readers to access references with DOI
+%    \begin{itemize}
+%        \item Add DOI hyperlink (make it clickable) using the corresponding URL (the URL can be created adding ``http://doi.org/'' in front of the DOI hyperlink).
+%    \end{itemize}
+%\end{enumerate}
+\bibliographystyle{apacite}
+\bibliography{references}
+\end{document}

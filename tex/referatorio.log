@@ -1,0 +1,771 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  20 MAY 2026 11:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./referatorio.tex
+(referatorio.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(RBIEarticle.cls
+Document Class: RBIEarticle 2022/08/23 v3.2 Artigos para a RBIE
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.
+def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count279
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen151
+\l@unhyphenated=\language79
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def
+)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count280
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4206.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\b
+abel-english.tex)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\b
+abel-spanish.tex)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\b
+abel-brazilian.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\engli
+sh.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4330.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spani
+sh.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks18
+\es@quotdepth=\count281
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 4330.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\braz
+ilian.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 100.
+))
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
+ty
+\lst@mode=\count282
+\lst@gtempboxa=\box53
+\lst@token=\toks19
+\lst@length=\count283
+\lst@currlwidth=\dimen152
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen153
+\lst@width=\dimen154
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen155
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.s
+ty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
+y
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
+\lst@framebox=\box54
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
+fg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.s
+ty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesca
+pe.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
+y
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.s
+ty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\ge
+ttitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count290
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count291
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringe
+nc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.s
+ty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count294
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count295
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen157
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigint
+calc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count296
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count300
+\HyField@AnnotCount=\count301
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\reru
+nfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uni
+quecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip51
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e
+\l3keys2e.sty
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count304
+\g__pdfannot_backend_int=\count305
+\g__pdfannot_backend_link_int=\count306
+))
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count307
+\l__lipsum_a_int=\count308
+\l__lipsum_b_int=\count309
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.t
+ex))
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count310
+\bibleftmargin=\skip52
+\bibindent=\skip53
+\bibparsep=\skip54
+\bibitemsep=\skip55
+\biblabelsep=\skip56
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen172
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.s
+ty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box56
+\extrarowheight=\dimen174
+\NC@list=\toks20
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box57
+)
+\rotheadsize=\dimen175
+\c@nlinenum=\count315
+\TeXr@lab=\toks21
+)
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.s
+ty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 69.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 69.
+Package hyperref Info: Option `unicode' set `true' on input line 69.
+\@RBIEfootsep=\skip73
+LaTeX Info: Redefining \maketitle on input line 270.
+LaTeX Info: Redefining \section on input line 355.
+LaTeX Info: Redefining \subsection on input line 359.
+LaTeX Info: Redefining \subsubsection on input line 363.
+\c@code=\count316
+)
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 59
+.
+LaTeX Font Info:    No file TUptm.fd. on input line 59.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 59.
+
+(referatorio.aux
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 11.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 16.
+)
+\openout1 = `referatorio.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+\big@size=\dimen176
+\c@lstlisting=\count317
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.
+ltx))
+Package hyperref Info: Link coloring ON on input line 59.
+ (referatorio.out) (referatorio.out)
+\@outlinefile=\write3
+\openout3 = `referatorio.out'.
+
+\c@maskedRefs=\count318
+
+
+Package apacite Warning: No suitable language definition file (brazilian.apc) f
+ound.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 61.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/it' undefined
+(Font)              using `TU/ptm/b/n' instead on input line 61.
+
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+
+LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 61.
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 61--61
+\TU/ptm/m/n/10 ORCID: [][]0009-0002-1319-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 61.
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 61.
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 61.
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 61.
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+1.
+(C:\Users\IFAM-CBDA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+
+Underfull \hbox (badness 1817) in paragraph at lines 61--61
+\TU/ptm/m/n/10 ORCID: [][]0000-0002-0963-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 61--61
+\TU/ptm/m/n/10 ORCID: [][]0000-0002-0260-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 61--61
+\TU/ptm/m/n/10 ORCID: [][]0000-0002-1585-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+
+ []
+
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+File: newlogo.png Graphic file (type bmp)
+<newlogo.png>
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.14006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+Overfull \vbox (26.27103pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 82
+.
+LaTeX Font Info:    No file TUpcr.fd. on input line 82.
+
+
+LaTeX Font Warning: Font shape `TU/pcr/m/it' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 82.
+
+[1
+
+]
+
+LaTeX Warning: Citation `lei11922_2008' undefined on input line 91.
+
+
+LaTeX Warning: Citation `pacheco2011' undefined on input line 91.
+
+
+LaTeX Warning: Citation `barr2018' undefined on input line 95.
+
+
+LaTeX Warning: Citation `sommerville2011' undefined on input line 95.
+
+
+LaTeX Warning: Citation `sokol2013' undefined on input line 97.
+
+[2]
+
+LaTeX Warning: Citation `borges2016' undefined on input line 105.
+
+[3]
+
+LaTeX Warning: Citation `pressman2016' undefined on input line 121.
+
+
+LaTeX Warning: Citation `qian2017' undefined on input line 123.
+
+
+LaTeX Warning: Citation `arcuri2020' undefined on input line 123.
+
+
+LaTeX Warning: Citation `vonflach2023' undefined on input line 125.
+
+
+LaTeX Warning: Citation `carver2007' undefined on input line 127.
+
+
+LaTeX Warning: Citation `venters2021' undefined on input line 129.
+
+[4]
+
+LaTeX Warning: Citation `nascimento2026logs' undefined on input line 137.
+
+
+LaTeX Warning: Citation `momcheva2025' undefined on input line 143.
+
+
+LaTeX Warning: Citation `vanGeest2024' undefined on input line 150.
+
+[5]
+
+LaTeX Warning: Citation `lgpd2018' undefined on input line 155.
+
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 175.
+
+
+LaTeX Warning: Citation `moodle2024' undefined on input line 175.
+
+
+LaTeX Warning: Citation `google2024' undefined on input line 175.
+
+
+Overfull \hbox (2.66356pt too wide) in paragraph at lines 175--176
+[]\TU/ptm/m/it/12 Pesquisas indicam que existem ferramentas de integração entre
+ AVAs e GitHub/GitLab.
+ []
+
+[6]
+
+LaTeX Warning: Citation `cecead_referatorio' undefined on input line 179.
+
+
+LaTeX Warning: Citation `unirede_referatorio' undefined on input line 181.
+
+
+LaTeX Warning: Citation `ifmg_referatorio' undefined on input line 187.
+
+[7] [8] [9]
+
+LaTeX Warning: Reference `tab:sbc_literatura' on page 10 undefined on input lin
+e 266.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 273.
+
+Overfull \hbox (3.96927pt too wide) in paragraph at lines 273--291
+ [][] 
+ []
+
+[10] [11] (referatorio.bbl) [12] (referatorio.aux
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `referatorio.out' has not changed.
+(rerunfilecheck)             Checksum: 8A46978DF55C066A02996C30BEEE2B08;3763.
+ ) 
+Here is how much of TeX's memory you used:
+ 12584 strings out of 402983
+ 198073 string characters out of 5447654
+ 739738 words of memory out of 5000000
+ 41147 multiletter control sequences out of 15000+600000
+ 660681 words of font info for 123 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 88i,13n,93p,1463b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on referatorio.pdf (12 pages).

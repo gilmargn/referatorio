@@ -1,0 +1,333 @@
+%
+% Template for RBIE papers in LaTeX
+%
+
+% The above language combination is for this template document only.
+% You should use one of the following:
+%\documentclass[english, spanish, brazilian]{RBIEarticle} % for papers in portuguese
+%\documentclass[brazilian, spanish, english]{RBIEarticle} % for papers in english
+%\documentclass[brazilian, english, spanish]{RBIEarticle} % for papers in spanish
+
+% Papers in Portuguese or Spanish may require the following lines:
+%
+% Template for RBIE papers in LaTeX
+%
+
+\documentclass[english, spanish, brazilian]{RBIEarticle}
+\title{Repositórios de Código e Padronização Institucional: Um Estudo Automatizado a partir do GitHub}
+\titleinenglish{Code Repositories and Institutional Standardization: An Automated Study Based on GitHub}
+\titleinspanish{Repositorios de Código y Estandarización Institucional: Un Estudio Automatizado a partir de GitHub}
+
+\author{%
+	\parbox{4cm}{%
+		Gilmar G Nascimento\\
+		IFAM\\
+		ORCID: \href{https://orcid.org/0009-0002-1319-9824}{0009-0002-1319-9824}\\
+	%	\href{mailto:gilmar.nascimento@ifam.edu.br}{gilmar.nascimento@ifam.edu.br}
+	}
+	\parbox{4cm}{%
+		Maria Claudia Emer\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-0963-1891}{0000-0002-0963-1891}\\
+	%	\href{mailto:claudiaemer@utfpr.edu.br}{claudiaemer@utfpr.edu.br}
+	}
+	\parbox{4cm}{%
+		Adolfo Gustavo SS Neto\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-0260-5922}{0000-0002-0260-5922}\\
+	%	\href{mailto:adolfogustavo@utfpr.edu.br}{adolfogustavo@utfpr.edu.br}
+	}
+	\parbox{4cm}{%
+		Laudelino C Bastos\\
+		UTFPR\\
+		ORCID: \href{https://orcid.org/0000-0002-1585-7168}{0000-0002-1585-7168}\\
+	%	\href{mailto:laudelinobastos@utfpr.edu.br}{laudelinobastos@utfpr.edu.br}
+	}
+}
+
+\heading{Nascimento, G. G., Emer, M. C., Seca Neto, A. G. S., \& Bastos, L. C.}{RBIE v.34 – 2026}
+
+\citeas{Nascimento, G. G., Emer, M. C., Seca Neto, A. G. S., \& Bastos, L. C. (2026). Repositórios de Código e Padronização Institucional: Um Estudo Automatizado a partir do GitHub. Revista Brasileira de Informática na Educação, 34. \url{https://doi.org/10.5753/rbie.2026.xxxx}}
+
+\Submission{20/05/2026}
+\CameraReady{}
+\FirstRoundNotif{}
+\EditionReview{}
+\NewVersion{}
+\AvailableOnline{}
+\SecondRoundNotif{}
+\Published{}\begin{document}
+	
+	\maketitle
+	
+% If the manuscript is written in English, then this element must be removed.
+\begin{otherlanguage}{brazilian}
+\begin{abstract}
+	Este artigo analisa a adoção institucional de plataformas de repositórios de código nos Institutos Federais (IFs) da Amazônia Legal. A partir de uma busca exploratória no GitHub e da fundamentação nos conceitos de Engenharia de Software e referatório, identifica-se uma lacuna de institucionalização de práticas sistemáticas de versionamento e documentação no ambiente educacional e de pesquisa da região. Correlacionam-se os padrões estabelecidos em Projetos Pedagógicos Institucionais (PPIs) e Projetos Pedagógicos de Curso (PPCs) com as práticas exigidas pela Engenharia de Software, buscando uma amálgama entre a produção de códigos — em ensino, pesquisa e extensão — e a infraestrutura institucional de repositórios. Adicionalmente, são discutidas observações sobre código aberto, ciência aberta, versionamento, conformidade com a LGPD e a relação entre Ambientes Virtuais de Aprendizagem (AVAs) e plataformas versionadoras de código. Os resultados indicam que a maioria dos IFs da região analisados não possui organização oficial no GitHub, e uma parcela significativa sequer está registrada na plataforma. Como contribuição, propõe-se o desenvolvimento de recomendações baseadas no conceito de referatório — um instrumento de curadoria educacional — para a organização e aproveitamento pedagógico e científico de repositórios de código no contexto da Amazônia Legal, com potencial de escala para toda a Rede Federal.
+\end{abstract}
+\end{otherlanguage}
+
+\begin{otherlanguage}{english}
+\begin{abstract}
+<Here comes the abstract of the paper in English. The abstract should summarize the contents of the manuscript and should contain at least 150 and at most 300~words long and must be written in italics, Times~10, justified, with no special indentation and no spacing before or after.>
+\keywords <Abstract must be followed by 3 to 10 keywords. The keywords should be justified with a line space single, no special indentation, with no spacing before and spacing of exactly 24-points after. The text should be set in Times 10-point font size and in italic font style. Please use semi-colon as a separator. Keywords must be title cased.>
+\end{abstract}
+\end{otherlanguage}
+
+% If the manuscript is written in English, then this element must be removed.
+\begin{otherlanguage}{spanish}
+\begin{abstract}
+<Aquí viene el resumen del artículo en español. El resumen debe resumir el contenido del manuscrito y debe contener un mínimo de 150 y un máximo de 300~palabras y debe estar escrito en cursiva, Times~10, justificado, sin sangría especial y sin espacio antes o después.>
+\keywords <El resumen debe ir seguido de 3 a 10 palabras clave. Las palabras clave deben estar justificadas con un espacio de línea simple, sin sangría especial, sin espacios antes y con un espacio de exactamente 24 puntos después. El texto debe configurarse fuente Times con tamaño de 10 puntos y en estilo de fuente cursiva. Utilice punto y coma como separador. Las palabras clave deben comenzar con una letra mayúscula.>
+\end{abstract}
+\end{otherlanguage}
+
+		
+%		\palavraschave{Repositórios de código. GitHub. Ensino de Computação. Institutos Federais. Amazônia Legal. Referatório. Ciência Aberta.}
+\section{Introdução}
+	
+	É possível escrever códigos utilizando apenas editores de texto simples e ferramentas de linha de comando isoladas. No entanto, essa abordagem demanda tempo excessivo e dispersa funcionalidades que poderiam estar agrupadas. Ambientes Integrados de Desenvolvimento (IDEs) surgiram exatamente para resolver esse problema: integram editor, compilador, depurador e versionamento em uma única interface, aumentando a produtividade e reduzindo a complexidade cognitiva.
+	
+	Essa mesma lógica de integração — agrupar funcionalidades dispersas para aumentar produtividade e reduzir complexidade — pode ser observada no âmbito institucional. A Rede Federal de Educação Profissional, Científica e Tecnológica (Rede Federal de EPCT) não é uma coleção solta de escolas técnicas. Há mais de um século, ela integra institutos, campi, cursos e níveis de ensino em uma estrutura nacional coordenada \cite{lei11922_2008}, potencializando o desenvolvimento tecnológico do país \cite{pacheco2011}.
+	
+	A integração é reconhecida como benéfica tanto para ferramentas de codificação quanto para a organização da educação profissional. No entanto, os códigos produzidos no âmbito dos Institutos Federais — instituições cujo próprio nome evoca \textbf{Educação, Ciência e Tecnologia} — permanecem, em grande medida, dispersos e sem política institucional de curadoria. Propõe-se que, assim como Projetos Pedagógicos Institucionais (PPIs) e Projetos Pedagógicos de Curso (PPCs) integram documentalmente a estrutura curricular\footnote{Documentos obrigatórios exigidos pelo Ministério da Educação (MEC) que fundamentam as atividades de ensino, pesquisa e extensão no âmbito do Sinaes.}, os repositórios de código sejam tratados como parte dessa mesma lógica de integração sistêmica, independentemente da área do conhecimento ou da ferramenta utilizada.
+	
+	O desenvolvimento de software é um processo complexo e necessita de profissionais bem preparados. Como argumenta Humphrey \cite{barr2018}, a sociedade contemporânea depende demasiadamente dos produtos de software para que possamos continuar com práticas artesanais em sua produção. A qualidade do software produzido está diretamente relacionada à formação recebida e às práticas adotadas durante o aprendizado \cite{sommerville2011}. A formação de profissionais — em qualquer área que envolva produção de código — deve incluir práticas eficazes de engenharia de software, aprendidas e exercitadas durante a educação formal. Nesse sentido, o domínio de ferramentas de versionamento e colaboração, como repositórios Git, torna-se competência fundamental não apenas para estudantes de computação, mas para todo aquele que produz código como parte de sua atividade acadêmica ou profissional.
+	
+	O termo ``repositório de software"~ abrange todos os artefatos produzidos durante o desenvolvimento de um sistema, desde arquivos com código-fonte armazenados em sistemas de controle de versão até mensagens trocadas entre desenvolvedores \cite{sokol2013}. Sobre o ensino e desenvolvimento de códigos na academia, Weinberg \cite{barr2018} observa que projetos de códigos feitos nas universidades geralmente não possuem manutenção, não são utilizados ou testados por outras pessoas. Parte significativa dos códigos derivados de práticas de ensino são ``engavetados", sem possibilidade de aproveitamento de boas iniciativas.
+	
+	Diferentemente do que ocorre com PPI e PPCs — cuja ausência inviabiliza o reconhecimento institucional perante o MEC — não há qualquer exigência normativa relacionada a repositórios de código. Um curso pode ser legalmente reconhecido sem que a instituição mantenha qualquer política de versionamento ou colaboração por meio de plataformas de hospedagem de código.
+	
+%	No entanto, a ausência de obrigação legal não equivale à ausência de relevância pedagógica e institucional. A Engenharia de Software, como disciplina, estabelece que o desenvolvimento sistemático de software envolve não apenas a codificação, mas um conjunto de atividades inter-relacionadas — especificação, projeto, implementação, testes, documentação, configuração e manutenção — que devem ser registradas e gerenciadas ao longo de todo o ciclo de vida \cite{sommerville2011,pressman2016}. Práticas como controle de versão, revisão de código por pares, rastreabilidade de requisitos, documentação arquitetural e automação de testes são componentes centrais de uma formação sólida \cite{pressman2016, fowler2018}. Essas práticas não se restringem à computação: um projeto de pesquisa em bioinformática, uma simulação numérica em engenharia ou um sistema de coleta de dados em ciências ambientais igualmente demandam versionamento, documentação e reprodutibilidade.
+%	
+%	Assim como é prática recomendada — ainda que nem sempre seguida — que um docente respeite a ementa de sua disciplina, a institucionalização de repositórios de código deveria ser uma prática esperada em toda a instituição que se nomeia como de ``Educação, Ciência e Tecnologia". Não se trata apenas de armazenar código, mas de \textbf{documentar o processo de construção e evolução} de artefatos de software, alinhando a formação e a pesquisa às práticas consolidadas da ciência aberta e da indústria \cite{sommerville2011}.
+	
+	Entre as plataformas que hospedam código aberto, destaca-se o GitHub. Segundo Borges \cite{borges2016}, seus repositórios concentram-se majoritariamente em bibliotecas e arcabouços para desenvolvimento web, ferramentas de código e componentes não web.\footnote{Embora o GitHub seja a plataforma mais utilizada e tenha sido o foco deste estudo por oferecer API pública para coleta automatizada de dados, existem alternativas como GitLab (auto-hospedado) e Codeberg (sem fins lucrativos). A análise comparativa dessas plataformas no contexto dos IFs, incluindo conformidade com a LGPD, é sugerida como trabalho futuro.} O potencial educacional e científico dessas plataformas, no entanto, depende de uma condição fundamental: a adoção institucional.
+	
+	Como será demonstrado adiante, a maioria dos Institutos Federais da Amazônia Legal analisados não possui organização oficial no GitHub, e uma expressiva parcela sequer está registrada na plataforma — o que sugere não uma violação legal, mas uma \textbf{lacuna de institucionalização de práticas sistemáticas de engenharia de software} no ambiente educacional e de pesquisa da região. Essa lacuna torna-se ainda mais significativa quando confrontada com os princípios da ciência aberta, que preconizam a disponibilização não apenas de publicações e dados, mas também de código-fonte como parte integrante do conhecimento científico.
+	
+	O simples acesso a plataformas como GitHub, contudo, não é suficiente para garantir seu aproveitamento pedagógico e institucional. É necessário um agrupamento intencional de informações, documentações e códigos que oriente educadores, pesquisadores e estudantes na navegação por esse ecossistema. É nesse ponto que o conceito de \textbf{referatório} — discutido a seguir — oferece uma contribuição arquitetural relevante.
+	
+	\textbf{Cumpre esclarecer: esta pesquisa não versa sobre o ensino de versionamento ou sobre as vantagens técnicas do Git. Seu objeto é a escala institucional — as políticas, diretrizes e normas (ou sua ausência) que deveriam orientar a gestão de repositórios de código nos IFs. Trata-se de um trabalho de natureza político-pedagógica, não de um minicurso sobre ferramentas.}
+	
+	Esta pesquisa parte do seguinte problema: diante da ausência de políticas institucionais estruturadas para a gestão de repositórios de código nos IFs da Amazônia Legal, em que medida um referatório educacional pode contribuir para a organização e curadoria desses repositórios como parte de uma política institucional de ciência aberta? Como objetivos específicos, busca-se: (i) identificar as plataformas de código atualmente utilizadas — ainda que informalmente — por docentes, pesquisadores e discentes da região; (ii) analisar quais fatores institucionais e pedagógicos favorecem ou restringem o uso dessas plataformas; (iii) com base nos dados levantados e no conceito de referatório, desenvolver recomendações aplicáveis à realidade da região amazônica.
+	
+	A escolha da Amazônia Legal como recorte não é arbitrária: suas particularidades geográficas, de infraestrutura e de concentração de docentes, discentes e projetos de pesquisa e extensão a tornam um lócus privilegiado para um estudo piloto. Ao submeter recomendações à revisão por pares, em vez de restringi-las a eventos institucionais internos, busca-se legitimidade científica e transparência. A hipótese de trabalho é que soluções adequadas à realidade amazônica possam, no futuro, ser estendidas a outras regiões da Rede Federal de EPCT, contribuindo para uma política nacional de curadoria de repositórios de código.
+	
+	\section{Referencial teórico}
+	
+	\subsection{Engenharia de Software e Ensino de Programação}
+	
+	A engenharia de software desempenha diversos papéis na construção de projetos que envolvem códigos. Conforme Pressman \cite{pressman2016}, a engenharia de software é uma disciplina relacionada com todos os aspectos da produção de software, desde os estágios iniciais de especificação até sua manutenção. Além dos processos técnicos, relaciona-se também com gerenciamento de projeto e desenvolvimento de ferramentas e métodos. Para o ensino de computação, isso implica que não basta ensinar sintaxe de linguagens; é necessário também ensinar práticas de organização, documentação e versionamento \cite{sommerville2011}.
+	
+	Há, no entanto, uma diferença entre o ambiente de desenvolvimento de habilidades relacionadas à engenharia de software no espaço acadêmico e no empresarial. Conforme Barr \cite{barr2018}, quem escreve bastante código na faculdade não necessariamente fará "bons" códigos nas empresas. Essa lacuna entre a formação acadêmica e as práticas profissionais tem sido objeto de estudo em diversas pesquisas na área de educação em computação \cite{qian2017}. Uma das hipóteses para essa lacuna é a ausência, nos currículos, de disciplinas que integrem teoria e prática por meio de ferramentas reais de desenvolvimento colaborativo \cite{arcuri2020}.
+	
+	Um exemplo particularmente relevante dessa lacuna é o Software de Pesquisa. Von Flach e colaboradores \cite{vonflach2023} o definem como o software desenvolvido durante o processo de pesquisa, incluindo código fonte, algoritmos, scripts, fluxos de trabalho computacionais e executáveis. Esse tipo de software é parte integrante do ecossistema de pesquisa moderno e é amplamente utilizado nas Ciências e Engenharias para gerar resultados que servem como evidência em publicações científicas.
+	
+	Devido à complexidade envolvida no desenvolvimento de software e ao conhecimento de domínio especializado necessário, os próprios pesquisadores desenvolvem o software de pesquisa ou estão intimamente envolvidos com sua criação \cite{carver2007}. No entanto, eles nem sempre estão familiarizados com boas práticas de desenvolvimento de software sustentável \cite{vonflach2023}.
+	
+	Na Engenharia de Software, duas linhas de pesquisa voltadas para sustentabilidade se destacam. A primeira é a Sustentabilidade de Software, cuja preocupação central é a capacidade do software de perdurar ao longo do tempo. A segunda é a Engenharia de Software para Sustentabilidade, também conhecida como SE4S \cite{venters2021}. Para o ensino de programação, isso implica que avaliar a qualidade de algoritmos exige ir além da verificação funcional. É necessário também considerar práticas de versionamento, documentação e organização que garantam a longevidade e a reprodutibilidade do código produzido.
+	
+	Dessa forma, os trabalhos desenvolvidos nas disciplinas, assim como os projetos de ensino, pesquisa e extensão, poderiam com os devidos cuidados ser inseridos em repositórios institucionais. Com curadoria e planejamento pedagógico, esses materiais poderiam ser reaproveitados em outros processos, como a identificação de erros de segurança, a análise de qualidade de código e o desenvolvimento de recursos pedagógicos.
+	
+	\subsection{Versionamento e Rastros de Aprendizagem}
+	
+	Além de servirem como repositórios de código, plataformas como GitHub registram automaticamente o histórico de desenvolvimento por meio de commits, mensagens de log e evolução temporal dos arquivos. Esses rastros digitais constituem uma fonte valiosa de dados para a análise do processo de aprendizagem em programação.
+	
+	Estudos recentes têm explorado o uso de logs de programação para compreender dificuldades de aprendizado e fornecer feedback automatizado aos estudantes \cite{qian2017, nascimento2026logs}. Especificamente, o uso de logs capturados durante a codificação permite identificar padrões de erro, estratégias de correção e evolução conceitual ao longo do tempo \cite{nascimento2026logs}.
+	
+	Nesta pesquisa, embora o foco principal seja a análise da adoção institucional de repositórios, reconhece-se o potencial dos logs de versionamento como ferramenta complementar para investigações futuras sobre a eficácia do uso do GitHub no ensino de programação, conforme apontado em trabalhos anteriores \cite{nascimento2026logs}. Além disso, os logs são salvos em repositórios, o que proporciona não apenas a continuidade de pesquisas futuras, mas também o alinhamento com os princípios da Ciência Aberta: dados de aprendizado tornam-se rastreáveis, compartilháveis e passíveis de reuso por outros pesquisadores, desde que respeitadas as questões éticas e de privacidade.
+	
+	\subsection{Ciência Aberta e Repositórios de Código}
+	
+	A Ciência Aberta tem ganhado destaque como um movimento que busca tornar a pesquisa mais transparente, reprodutível e acessível. No contexto do ensino de computação, plataformas como GitHub e GitLab são reconhecidas como infraestrutura essencial para a Ciência Aberta \cite{momcheva2025}. Os princípios FAIR (Findable, Accessible, Interoperable, Reusable) devem ser aplicados não apenas a dados, mas também a códigos produzidos no âmbito acadêmico.
+	
+	Pesquisas recentes mostram que o uso de repositórios Git no ensino promove:
+	\begin{itemize}
+		\item Participação e colaboração em projetos de código aberto; (quando o software/projeto é de terceiros(mesmo sendo código aberto))
+		\item Versionamento e rastreabilidade de contribuições;
+		\item Integração com serviços como Zenodo para geração de DOIs;
+		\item Baixa barreira de entrada, dada a familiaridade crescente com Git \cite{vanGeest2024}.
+	\end{itemize}
+	
+	\subsection{Plataformas, Soberania de Dados e Implicações Legais}
+	
+	No entanto, a adoção de plataformas de repositórios por instituições públicas brasileiras não é isenta de controvérsias. O GitHub, embora dominante, é uma plataforma proprietária adquirida pela Microsoft em 2018. Seus termos de serviço permitem, em determinadas circunstâncias, a utilização de dados públicos para treinamento de modelos de inteligência artificial e outras finalidades comerciais. Para uma instituição pública que produz conhecimento financiado com recursos da sociedade, essa dependência levanta questões sobre soberania de dados, propriedade intelectual e conformidade com a Lei Geral de Proteção de Dados (LGPD) \cite{lgpd2018}.
+	
+	Alternativas como GitLab e Codeberg oferecem modelos diferentes. O GitLab permite instalação auto-hospedada (GitLab Community Edition), mantendo repositórios em servidores próprios sob controle direto da instituição. O Codeberg, por sua vez, é uma plataforma sem fins lucrativos, comprometida exclusivamente com software livre, sem vínculo com grandes corporações.
+	
+	A escolha da plataforma, portanto, não é meramente técnica. Envolve decisões estratégicas sobre onde a instituição deposita seus ativos digitais — e sob quais condições legais e comerciais. Uma política institucional de repositórios não pode ignorar essas dimensões, sob pena de, ao buscar abertura, comprometer a soberania e a segurança jurídica da instituição.
+	
+	Nesta pesquisa, optou-se por analisar o GitHub por dois motivos: (i) sua dominância no cenário educacional e (ii) a disponibilidade de API pública para coleta automatizada de dados. A discussão sobre alternativas auto-hospedadas ou sem fins lucrativos, embora relevante, foge ao escopo deste estudo empírico, sendo sugerida como trabalho futuro.
+	
+	\subsection{Ambientes Virtuais de Aprendizagem e Repositórios}
+	
+	A prática comum em instituições de ensino, incluindo os IFs, é a utilização de Ambientes Virtuais de Aprendizagem (AVAs) como Moodle e Google Classroom para recebimento e avaliação de códigos. O fluxo tradicional envolve o estudante desenvolvendo código localmente, compactando em arquivo .zip e enviando ao professor, que avalia manualmente.
+	
+	Este fluxo, embora funcional, apresenta limitações:
+	\begin{itemize}
+		\item Não estimula boas práticas de versionamento (Git);
+		\item Não promove reuso de código entre turmas e períodos;
+		\item Não gera visibilidade para o trabalho do estudante;
+		\item Não se alinha aos princípios de Ciência Aberta e reprodutibilidade.
+	\end{itemize}
+	
+	Pesquisas indicam que existem ferramentas de integração entre AVAs e GitHub/GitLab. O Moodle, por exemplo, conta com plugins como VPL (Virtual Programming Lab) e CodeGrade que permitem submissão via \texttt{git push} e avaliação automática \cite{moodle2024}. O Google Classroom também oferece APIs e add-ons que possibilitam integração com GitHub \cite{google2024}.
+	
+	
+	\subsection{Referatório}	
+	O conceito de \textbf{referatório} é recente na literatura brasileira de educação digital, mas tem ganhado relevância como alternativa à simples acumulação de recursos educacionais. Um referatório pode ser concebido como um instrumento didático-metodológico que propicia o acesso qualificado a fontes relevantes de informação, favorecendo o desenvolvimento da autonomia intelectual e da competência informacional \cite{cecead_referatorio}.
+	
+	Diferentemente de um repositório tradicional, que armazena os recursos propriamente ditos (arquivos, códigos, documentos), um referatório organiza o acesso a eles. Como define a UniRede, ``um Referatório é um site na web que não faz o armazenamento dos recursos propriamente ditos, mas organiza o acesso a repositórios que detêm recursos sobre determinado assunto" \cite{unirede_referatorio}. Essa distinção é crucial: o referatório atua como uma camada de curadoria sobre infraestruturas existentes.
+	
+	No contexto educacional, o referatório pode funcionar como suporte para projetos interdisciplinares, sequências didáticas ou roteiros de aprendizagem, assumindo papel estratégico na mediação entre o conhecimento sistematizado e os sujeitos em formação \cite{cecead_referatorio}. Em tempos de sobrecarga informacional e abundância de conteúdos dispersos na internet, o referatório representa um contraponto fundamentado e organizado, pautado por critérios de relevância, confiabilidade e pertinência pedagógica.
+	
+	Aplicado ao universo de repositórios de código, o conceito ganha contornos específicos. As plataformas de hospedagem de código — GitHub, GitLab, Codeberg — são, em si mesmas, repositórios massivos, mas sua organização é descentralizada e dependente de ações individuais. Um professor que deseja encontrar exemplos de código produzidos por outros docentes da própria instituição não tem, hoje, um ponto de entrada único e curado. O referatório preencheria essa lacuna: não armazenaria os códigos (eles permaneceriam nos repositórios originais), mas organizaria o acesso qualificado a eles, agregando metadados pedagógicos, descrições de contexto de uso, nível de dificuldade, área do conhecimento e outros filtros relevantes para educadores e pesquisadores.
+	
+	Projetos já implementados na Rede Federal demonstram a viabilidade do conceito. O IFMG — Campus Ouro Preto mantém um referatório de objetos de aprendizagem \cite{ifmg_referatorio}, e a UniRede coordena um referatório de objetos de aprendizagem da EaD pública brasileira \cite{unirede_referatorio}. Ambos os casos indicam que a arquitetura de referatório é factível e pode ser adaptada para o contexto de repositórios de código.
+	
+	Transpondo essa lógica para o universo dos Institutos Federais, um referatório de repositórios educacionais de código poderia:
+	\begin{itemize}
+		\item Agregar repositórios de código produzidos por docentes, discentes e pesquisadores dos IFs da Amazônia Legal;
+		\item Oferecer filtros por área do conhecimento, nível de ensino, tipo de atividade (ensino, pesquisa, extensão), licença de uso e tags pedagógicas;
+		\item Integrar-se a políticas institucionais de ciência aberta, exigindo como condição de inclusão a adoção de licenças livres e a disponibilização pública do código;
+		\item Servir como vitrine de boas práticas e repositórios de referência para a comunidade acadêmica regional.
+	\end{itemize}
+	
+	O referatório, portanto, não é uma solução técnica para o problema de versionamento — que já é resolvido por Git e plataformas correlatas — mas uma \textbf{solução político-pedagógica} para o problema de visibilidade, curadoria e institucionalização dos repositórios de código produzidos no âmbito dos IFs.
+	
+	\section{Metodologia}
+	
+	A pesquisa adota uma abordagem mista, combinando procedimentos quantitativos e qualitativos. Foram analisados os oito Institutos Federais localizados na Amazônia Legal: IFAC (Acre), IFAP (Amapá), IFAM (Amazonas), IFPA (Pará), IFRO (Rondônia), IFRR (Roraima), IFMT (Mato Grosso) e IFTO (Tocantins). O IFMA (Maranhão), embora parcialmente inserido na Amazônia Legal, foi excluído da análise por estar majoritariamente fora da região.
+	
+	\subsection{Busca em plataformas de repositórios}
+	
+	Realizou-se uma busca exploratória na plataforma GitHub, utilizando os identificadores oficiais de cada IF (ex: IFTO, IFAC, IFAP, IFAM, IFPA, IFRR, IFRO, IFMT). A string de busca foi:
+	
+	\texttt{(ifto OR ifac OR ifap OR ifam OR ifpa OR ifrr OR ifro OR ifmt)}
+	
+	Foram registradas as seguintes informações para cada IF:
+	\begin{itemize}
+		\item Existência de organização oficial (ex: \texttt{github.com/ifto});
+		\item Existência de pelo menos um repositório público associado ao identificador;
+		\item Atividade nos últimos 12 meses (commits, issues, pull requests);
+		\item Descrição e finalidade declarada dos repositórios (ensino, pesquisa, extensão, administrativo).
+	\end{itemize}
+	
+	Ressalta-se que a análise concentrou-se na presença ou ausência de organizações institucionais, não na qualidade dos repositórios ou no domínio técnico de ferramentas por parte de docentes ou discentes. O interesse recai sobre a dimensão político-institucional — políticas, diretrizes, normativas — não sobre práticas individuais de versionamento.
+	
+	\subsection{Análise documental}
+	
+	Foram examinados os documentos institucionais publicamente disponíveis nos sites oficiais de cada IF, incluindo:
+	\begin{itemize}
+		\item Projetos Pedagógicos Institucionais (PPIs);
+		\item Projetos Pedagógicos de Curso (PPCs) de cursos de computação e áreas afins;
+		\item Planos de Desenvolvimento Institucional (PDIs);
+		\item Relatórios de gestão (2023-2025);
+		\item Políticas institucionais de ciência aberta ou de gestão de dados de pesquisa.
+	\end{itemize}
+	
+	A análise buscou identificar menções explícitas a: (i) políticas de repositórios de código; (ii) diretrizes para versionamento e documentação de software produzido institucionalmente; (iii) incentivos à publicação de código aberto; (iv) integração entre AVAs e plataformas de código.
+	
+	\subsection{Análise da literatura}
+	
+	Realizou-se uma busca na Biblioteca Digital da SBC (SOL) e nos anais dos eventos SBIE, EduComp, CBIE e SBES dos últimos cinco anos, utilizando combinações dos termos: ``repositório de código", ``GitHub educacional", ``ensino de programação", ``ciência aberta", ``referatório"~ e ``institutos federais". Foram considerados trabalhos que abordassem o uso institucional de plataformas de código no contexto da educação profissional e tecnológica.
+	
+	\section{Resultados e Discussão}
+	
+	\subsection{Presença institucional no GitHub}
+	
+	A busca exploratória revelou que, dos oito IFs analisados:
+	\begin{itemize}
+		\item Apenas dois possuem organização oficial no GitHub (IFTO e IFPA);
+		\item Quatro IFs não possuem qualquer organização registrada com seu identificador oficial;
+		\item Um IF sequer aparece na plataforma em qualquer modalidade (nem organização, nem repositórios associados a docentes/discentes com o identificador);
+		\item Os repositórios encontrados, quando existentes, estão majoritariamente associados a contas pessoais de docentes ou discentes, não a organizações institucionais.
+	\end{itemize}
+	
+	Esses números sugerem que, embora haja atividade na plataforma (os 183 repositórios identificados inicialmente na busca ampla), ela não é resultado de uma política institucional estruturada, mas sim de iniciativas individuais.
+	
+	\subsection{Análise documental}
+	
+	A análise dos documentos institucionais revelou que nenhum dos IFs da Amazônia Legal possui, em seus PPIs, PDIs ou relatórios de gestão, menção explícita a:
+	\begin{itemize}
+		\item Políticas de repositórios de código;
+		\item Diretrizes para versionamento de software produzido institucionalmente;
+		\item Incentivos à publicação de código aberto como parte da produção acadêmica;
+		\item Integração entre repositórios de código e AVAs institucionais.
+	\end{itemize}
+	
+	Alguns IFs mencionam, em seus PPCs de cursos de computação, o ensino de ferramentas de versionamento como conteúdo programático. No entanto, não há qualquer menção a políticas institucionais que vão além do ensino da ferramenta — ou seja, que tratem o código produzido na instituição como patrimônio a ser curado, preservado e compartilhado.
+	
+	\subsection{Análise da literatura}
+	
+	\subsection{Análise da literatura}
+	
+	Para compreender o estado da arte sobre o uso de repositórios de código no ensino de computação, realizou-se uma busca na Biblioteca Digital da SBC (SOL) utilizando a string \texttt{``repositório" and ``ensino"}. A busca retornou os trabalhos apresentados na Tabela~\ref{tab:sbc_literatura}.
+
+	\begin{table}[!htb]
+		\centering
+		\small
+		\caption{Trabalhos encontrados na SOL/SBC com a string ``repositório" and ``ensino" (versão resumida)}
+		\label{tab:sbc_literatura_resumo}
+		\begin{tabular}{p{12cm} c c c}
+			\toprule
+			\textbf{Título} & \textbf{Ano} & \textbf{GitHub} & \textbf{LMS} \\
+			\midrule
+			Identificação de Pesquisas  e Análise de Algoritmos de Clusterização para a Descoberta de Perfis de Engajamento & 2022 & Não & Sim \\
+			Sobre a necessidade de recursos educacionais para o ensino do Pensamento Computacional na Educação Básica Brasileira: discussão e concepção de Repositório Educacional do Pensamento Computacional. & 2021 & Não & Não \\
+			Small Open Online Course  com Professores do Ensino Médio: desafios para integrar REA nos materiais e atividades didáticas & 2016 & Não & Não \\
+			Impacto da descontinuidade da  tecnologia Flash na disponibilidade dos Objetos de Aprendizagem em  repositórios educacionais & 2021 & Não & Não \\
+			Versionamento de Projeto na Prática com Git e GitHub: Um Relato de Experiência do Curso Ofertado pelo Projeto LearningLab No Interior Cearense. & 2024 & Sim & Não \\
+			Jogos Digitais sob a perspectiva da Engenharia de Software: um mapeamento sistemático da literatura & 2024 & Não & Não \\
+			Implementação das Leis 10.639/03 e 11.645/08 no Ensino de Computação: Um Mapeamento da Literatura em Bases Nacionais & 2025 & Não & Não \\
+			OntoObADi: Uma Ontologia para Repositório Web Semântico de Objetos de Aprendizagem Digitais & 2025 & Não & Não \\
+			Uma API para Gerenciamento de Objetos de Aprendizagem Digitais Baseada em Web Semântica & 2025 & Não & Não \\
+			Commit Explorer: Uma Solução Open Source para Extração e Avaliação de Commits e Códigos
+			 & 2025 & Sim & Não \\
+			Uma Análise Comparativa entre Repositórios de Recursos Educacionais Abertos para a Educação Básica & 2021 & Não & Não \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	Dos treze trabalhos identificados, apenas dois mencionam diretamente o uso de GitHub em contexto educacional. O primeiro, "Versionamento de Projeto na Prática com Git e GitHub" (2024), é um relato de experiência sobre um curso de versionamento, ou seja, ensina a ferramenta em si. O segundo, "Commit Explorer" (2025), apresenta uma ferramenta para extração e avaliação de commits, com foco técnico. Nenhum dos dois, no entanto, aborda a dimensão institucional que esta pesquisa investiga: políticas de curadoria, integração com AVAs ou repositórios institucionais de código.
+	
+	Os demais trabalhos tratam de objetos de aprendizagem, repositórios educacionais para pensamento computacional, ou mapeamentos sistemáticos sem relação com versionamento de código. Observa-se também que nenhum dos trabalhos analisa a integração entre repositórios de código e Ambientes Virtuais de Aprendizagem (LMS) como Moodle ou Google Classroom, lacuna que esta pesquisa busca endereçar.
+	
+	A ausência de trabalhos que articulem repositórios de código, ensino e política institucional reforça a relevância deste estudo. A maioria das publicações encontradas ou ensina a ferramenta Git como conteúdo programático, ou propõe repositórios de objetos de aprendizagem no sentido tradicional (armazenamento de arquivos PDF, vídeos, apresentações). Não foram identificados trabalhos que discutam o referatório como solução de curadoria para códigos produzidos no âmbito dos Institutos Federais.
+	
+	\subsection{Síntese dos resultados}
+	
+	Os resultados indicam três constatações principais:
+	
+	\begin{enumerate}
+		\item \textbf{Lacuna normativa:} não há exigência legal para repositórios de código, ao contrário de PPIs e PPCs;
+		\item \textbf{Lacuna institucional:} a maioria dos IFs da Amazônia Legal não possui organização oficial no GitHub, e os repositórios existentes são fruto de ações individuais;
+		\item \textbf{Lacuna de curadoria:} mesmo nos casos em que há repositórios, não existe uma camada de organização pedagógica que permita sua reutilização por outros docentes, pesquisadores ou discentes.
+	\end{enumerate}
+	
+	Essas três lacunas convergem para um mesmo ponto: a ausência de uma \textbf{política institucional de gestão de repositórios de código}. É nesse ponto que o referatório se apresenta como uma solução arquitetural viável.
+	
+	\section{Considerações Finais}
+	
+	Esta pesquisa identificou uma lacuna institucional significativa nos IFs da Amazônia Legal: a ausência de políticas estruturadas para a gestão de repositórios de código. Embora não haja exigência normativa para tais políticas (ao contrário do que ocorre com PPIs e PPCs), a relevância pedagógica e científica da curadoria de códigos é inegável, especialmente para instituições de ``Educação, Ciência e Tecnologia".
+	
+	A contribuição principal deste trabalho é a proposição do referatório como instrumento de curadoria educacional e científica. O referatório não resolve o problema técnico de versionamento (já resolvido por Git e plataformas correlatas), mas sim o problema político-institucional de visibilidade, organização e reutilização dos códigos produzidos na instituição. Trata-se, portanto, de uma contribuição no campo da gestão educacional, não da engenharia de software ou do ensino de ferramentas.
+	
+	Como recomendações aplicáveis à realidade amazônica, sugere-se:
+	\begin{itemize}
+		\item Que os IFs da região considerem a criação de organizações institucionais em plataformas de código (GitHub, GitLab ou Codeberg);
+		\item Que essas organizações sejam regidas por políticas claras de licenciamento, em conformidade com os princípios da ciência aberta;
+		\item Que seja desenvolvido um referatório institucional ou interinstitucional, agregando os repositórios de código produzidos na região com curadoria pedagógica e científica;
+		\item Que esse referatório sirva como piloto para uma política nacional da Rede Federal de EPCT.
+	\end{itemize}
+	
+	Como limitações do estudo, reconhece-se que: (i) a busca concentrou-se no GitHub, não abrangendo exaustivamente outras plataformas; (ii) a análise documental baseou-se exclusivamente em fontes públicas; (iii) não foram realizadas entrevistas com gestores ou docentes para aprofundar as causas da lacuna identificada. Trabalhos futuros podem incluir a validação das recomendações junto a gestores da Rede Federal, o desenvolvimento de um protótipo de referatório para a região amazônica e a replicação do estudo em outras regiões do país.
+	
+	A hipótese que orienta este trabalho é que soluções adequadas à realidade amazônica — com suas particularidades geográficas, infraestruturais e de concentração de docentes, discentes e projetos — podem ser estendidas a outras regiões da Rede Federal. O artigo submetido à revisão por pares é o primeiro passo nessa direção: conferir legitimidade científica a uma discussão que, tradicionalmente, ocorreria apenas em reuniões institucionais internas.
+	
+	%\section{Referências}
+\bibliographystyle{apacite}
+\bibliography{references}
+	
+\end{document}
