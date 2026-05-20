@@ -1,0 +1,425 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Arcuri%
+}{%
+Arcuri%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+arcuri2020}
+\APACinsertmetastar {%
+arcuri2020}%
+\begin{APACrefauthors}%
+Arcuri, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Teaching software engineering with real-world tools}
+  {Teaching software engineering with real-world tools}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ICSE-SEET.} {Icse-seet.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Barr%
+\ \BBA {} Weinberg%
+}{%
+Barr%
+\ \BBA {} Weinberg%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+barr2018}
+\APACinsertmetastar {%
+barr2018}%
+\begin{APACrefauthors}%
+Barr, V.%
+\BCBT {}\ \BBA {} Weinberg, G\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Software Engineering Education: a retrospective} {Software
+  engineering education: a retrospective}\ \APACbVolEdTR{}{\BTR{}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Borges%
+, Hora%
+\BCBL {}\ \BBA {} Valente%
+}{%
+Borges%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+borges2016}
+\APACinsertmetastar {%
+borges2016}%
+\begin{APACrefauthors}%
+Borges, H.%
+, Hora, A.%
+\BCBL {}\ \BBA {} Valente, M\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding the Factors That Impact the Popularity of
+  GitHub Repositories} {Understanding the factors that impact the popularity of
+  github repositories}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ICSME}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Brasil}%
+}{%
+{Brasil}%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+lei11922_2008}
+\APACinsertmetastar {%
+lei11922_2008}%
+\begin{APACrefauthors}%
+{Brasil}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {Lei n. 11.892, de 29 de dezembro de 2008.} {Lei n. 11.892, de
+  29 de dezembro de 2008.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Brasil}%
+}{%
+{Brasil}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+lgpd2018}
+\APACinsertmetastar {%
+lgpd2018}%
+\begin{APACrefauthors}%
+{Brasil}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Lei Geral de Proteção de Dados (LGPD).} {Lei geral de
+  proteção de dados (lgpd).}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Carver%
+}{%
+Carver%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+carver2007}
+\APACinsertmetastar {%
+carver2007}%
+\begin{APACrefauthors}%
+Carver, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The importance of software engineering in research} {The
+  importance of software engineering in research}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computing in Science \& Engineering}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Google}%
+}{%
+{Google}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+google2024}
+\APACinsertmetastar {%
+google2024}%
+\begin{APACrefauthors}%
+{Google}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Google Classroom API.} {Google classroom api.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Momcheva%
+}{%
+Momcheva%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+momcheva2025}
+\APACinsertmetastar {%
+momcheva2025}%
+\begin{APACrefauthors}%
+Momcheva, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Open Science and version control} {Open science and
+  version control}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature Astronomy}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Moodle}%
+}{%
+{Moodle}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+moodle2024}
+\APACinsertmetastar {%
+moodle2024}%
+\begin{APACrefauthors}%
+{Moodle}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {VPL - Virtual Programming Lab.} {Vpl - virtual programming
+  lab.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nascimento%
+}{%
+Nascimento%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+nascimento2026logs}
+\APACinsertmetastar {%
+nascimento2026logs}%
+\begin{APACrefauthors}%
+Nascimento, S\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Logs de programação e análise de aprendizagem} {Logs
+  de programação e análise de aprendizagem}.{\BBCQ}
+\newblock
+
+\newblock
+\APACrefnote{Trabalho em andamento}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pacheco%
+}{%
+Pacheco%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+pacheco2011}
+\APACinsertmetastar {%
+pacheco2011}%
+\begin{APACrefauthors}%
+Pacheco, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Os Institutos Federais: uma revolução na educação
+  profissional e tecnológica} {Os institutos federais: uma revolução na
+  educação profissional e tecnológica}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pressman%
+}{%
+Pressman%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+pressman2016}
+\APACinsertmetastar {%
+pressman2016}%
+\begin{APACrefauthors}%
+Pressman, R\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {Engenharia de Software: uma abordagem profissional} {Engenharia
+  de software: uma abordagem profissional}\ (\PrintOrdinal{8}\ \BEd).
+\newblock
+\APACaddressPublisher{}{McGraw-Hill}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qian%
+\ \BBA {} Lehman%
+}{%
+Qian%
+\ \BBA {} Lehman%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+qian2017}
+\APACinsertmetastar {%
+qian2017}%
+\begin{APACrefauthors}%
+Qian, Y.%
+\BCBT {}\ \BBA {} Lehman, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Students' misconceptions and other difficulties in
+  introductory programming} {Students' misconceptions and other difficulties in
+  introductory programming}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Transactions on Computing Education}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sokol%
+\ \BBA {} Kesselman%
+}{%
+Sokol%
+\ \BBA {} Kesselman%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+sokol2013}
+\APACinsertmetastar {%
+sokol2013}%
+\begin{APACrefauthors}%
+Sokol, P.%
+\BCBT {}\ \BBA {} Kesselman, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Software Repository Mining} {Software repository
+  mining}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Computing Surveys}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sommerville%
+}{%
+Sommerville%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+sommerville2011}
+\APACinsertmetastar {%
+sommerville2011}%
+\begin{APACrefauthors}%
+Sommerville, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Engenharia de Software} {Engenharia de software}\
+  (\PrintOrdinal{9}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Pearson}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+van Geest%
+}{%
+van Geest%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+vanGeest2024}
+\APACinsertmetastar {%
+vanGeest2024}%
+\begin{APACrefauthors}%
+van Geest, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Teaching Git early in the curriculum} {Teaching git
+  early in the curriculum}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Inroads}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Venters%
+}{%
+Venters%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+venters2021}
+\APACinsertmetastar {%
+venters2021}%
+\begin{APACrefauthors}%
+Venters, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Software sustainability} {Software
+  sustainability}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Software}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+von Flach%
+\ \protect \BOthers {.}}{%
+von Flach%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+vonflach2023}
+\APACinsertmetastar {%
+vonflach2023}%
+\begin{APACrefauthors}%
+von Flach, G.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Research Software: definitions and practices} {Research
+  software: definitions and practices}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Open Research Software}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  20 MAY 2026 11:48
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  20 MAY 2026 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,26 +596,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 File: newlogo.png Graphic file (type bmp)
 <newlogo.png>
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 82.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.14006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 
@@ -632,102 +632,102 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 
 Overfull \vbox (26.27103pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 82
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 83
 .
-LaTeX Font Info:    No file TUpcr.fd. on input line 82.
+LaTeX Font Info:    No file TUpcr.fd. on input line 83.
 
 
 LaTeX Font Warning: Font shape `TU/pcr/m/it' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 82.
+(Font)              using `TU/lmr/m/n' instead on input line 83.
 
 [1
 
 ]
 
-LaTeX Warning: Citation `lei11922_2008' undefined on input line 91.
+LaTeX Warning: Citation `lei11922_2008' undefined on input line 93.
 
 
-LaTeX Warning: Citation `pacheco2011' undefined on input line 91.
+LaTeX Warning: Citation `pacheco2011' undefined on input line 93.
 
 
-LaTeX Warning: Citation `barr2018' undefined on input line 95.
+LaTeX Warning: Citation `barr2018' undefined on input line 97.
 
 
-LaTeX Warning: Citation `sommerville2011' undefined on input line 95.
+LaTeX Warning: Citation `sommerville2011' undefined on input line 97.
 
 
-LaTeX Warning: Citation `sokol2013' undefined on input line 97.
+LaTeX Warning: Citation `sokol2013' undefined on input line 99.
 
 [2]
 
-LaTeX Warning: Citation `borges2016' undefined on input line 105.
+LaTeX Warning: Citation `borges2016' undefined on input line 107.
 
 [3]
 
-LaTeX Warning: Citation `pressman2016' undefined on input line 121.
+LaTeX Warning: Citation `pressman2016' undefined on input line 123.
 
 
-LaTeX Warning: Citation `qian2017' undefined on input line 123.
+LaTeX Warning: Citation `qian2017' undefined on input line 125.
 
 
-LaTeX Warning: Citation `arcuri2020' undefined on input line 123.
+LaTeX Warning: Citation `arcuri2020' undefined on input line 125.
 
 
-LaTeX Warning: Citation `vonflach2023' undefined on input line 125.
+LaTeX Warning: Citation `vonflach2023' undefined on input line 127.
 
 
-LaTeX Warning: Citation `carver2007' undefined on input line 127.
+LaTeX Warning: Citation `carver2007' undefined on input line 129.
 
 
-LaTeX Warning: Citation `venters2021' undefined on input line 129.
+LaTeX Warning: Citation `venters2021' undefined on input line 131.
 
 [4]
 
-LaTeX Warning: Citation `nascimento2026logs' undefined on input line 137.
+LaTeX Warning: Citation `nascimento2026logs' undefined on input line 139.
 
 
-LaTeX Warning: Citation `momcheva2025' undefined on input line 143.
-
-
-LaTeX Warning: Citation `vanGeest2024' undefined on input line 150.
+LaTeX Warning: Citation `momcheva2025' undefined on input line 145.
 
 [5]
 
-LaTeX Warning: Citation `lgpd2018' undefined on input line 155.
+LaTeX Warning: Citation `vanGeest2024' undefined on input line 152.
+
+
+LaTeX Warning: Citation `lgpd2018' undefined on input line 157.
 
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 175.
+(Font)              using `TU/lmr/m/n' instead on input line 177.
 
 
-LaTeX Warning: Citation `moodle2024' undefined on input line 175.
+LaTeX Warning: Citation `moodle2024' undefined on input line 177.
 
 
-LaTeX Warning: Citation `google2024' undefined on input line 175.
+LaTeX Warning: Citation `google2024' undefined on input line 177.
 
 
-Overfull \hbox (2.66356pt too wide) in paragraph at lines 175--176
+Overfull \hbox (2.66356pt too wide) in paragraph at lines 177--178
 []\TU/ptm/m/it/12 Pesquisas indicam que existem ferramentas de integração entre
  AVAs e GitHub/GitLab.
  []
 
 [6]
 
-LaTeX Warning: Citation `cecead_referatorio' undefined on input line 179.
+LaTeX Warning: Citation `cecead_referatorio' undefined on input line 181.
 
 
-LaTeX Warning: Citation `unirede_referatorio' undefined on input line 181.
+LaTeX Warning: Citation `unirede_referatorio' undefined on input line 183.
 
 
-LaTeX Warning: Citation `ifmg_referatorio' undefined on input line 187.
+LaTeX Warning: Citation `ifmg_referatorio' undefined on input line 189.
 
 [7] [8] [9]
 
@@ -757,15 +757,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `referatorio.out' has not changed.
-(rerunfilecheck)             Checksum: 8A46978DF55C066A02996C30BEEE2B08;3763.
+(rerunfilecheck)             Checksum: 64F99BB9CE368F5188BFE2B69836736D;3591.
  ) 
 Here is how much of TeX's memory you used:
  12584 strings out of 402983
  198073 string characters out of 5447654
- 739738 words of memory out of 5000000
+ 738555 words of memory out of 5000000
  41147 multiletter control sequences out of 15000+600000
  660681 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,13n,93p,1463b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,14n,93p,1463b,750s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on referatorio.pdf (12 pages).
